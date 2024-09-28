@@ -132,17 +132,18 @@
         margin: 60px 0px;
     }
     .profile-with-social{
-        margin-top: 80px;
-        margin-bottom: 120px;
-        width: 220px;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        width: 200px;
         gap: 2px;
     }
     .profile{
         margin-top: 60px;
+        height: 100%;
     }
     .profileImage{
-        width:220px;
-        height:220px;
+        width:200px;
+        height:200px;
     }
     .hero-Name{
         display: flex;
@@ -151,6 +152,7 @@
         flex-direction: column;
         gap: 40px;
         width: 100%;
+        margin-top: 10px;
     }
     .hero-title{
         align-items: center;
@@ -158,16 +160,16 @@
         gap: 20px;
     }
     .hero-title h1{
-        font-size: 50px;
-        line-height: 55px;
+        font-size: 40px;
+        line-height: 45px;
         text-align: center;
         
     }
     .hero-title h1 span{
-         font-size: 60px ;
+         font-size: 50px ;
     }
     .hero-title p{
-        width:70%;
+        
         font-size:18px;
         font-weight: 300;
         text-align: center;
@@ -178,10 +180,10 @@
         justify-content: center;
     }
     .hero_connect{
-        padding: 20px 30px;
+        padding: 17px 20px;
     }
     .hero_resume{
-        padding: 20px 50px;
+        padding: 15px 30px;
     }
     
 }
