@@ -12,8 +12,9 @@
 }
 
 .footer-top-left img{
-    width: 150px;
-    margin-bottom: 15px;;
+    width:120px;
+    height:40px;
+    margin-bottom: 15px;
 }
 
 .footer-top-left p{
@@ -111,6 +112,12 @@
     .footer-top-left p{
         font-size: 15px;
         width:60%;
+    }
+    .footer-top-right{
+        flex-direction: column;
+    }
+    .footer-subscribe{
+        padding: 10px 25px;
     }
     .footer-bottom{
         flex-direction: column-reverse;

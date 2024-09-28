@@ -150,9 +150,7 @@
     }
     .about-skills{
         gap: 15px;
-        justify-content: center;
-        padding-right:40px;
-        padding-left:40px;
+        align-items: center;
     }
     .about-singleSkill{
         gap:20px;
@@ -162,7 +160,7 @@
         min-width: 150px;
     }
     .about-singleSkill hr{
-        height:5px;
+        display:none;
     }
     .about-achievements{
         justify-content: space-between;

@@ -45,7 +45,7 @@ const Footer = ()=>{
                     </div>
                             <form className='footer-top-right' onSubmit={onSubmit}>
                                 <div className="footer-email-input"><img src={user_icon} alt="" /> <input type="email" placeholder="Enter your Email" name="Subscriber" required="true"></input></div>
-                                <button type="submit" className='footer-subscribe'>Subscribe</button>
+                                <div ><button type="submit" className='footer-subscribe'>Subscribe</button></div>
                             </form>
                 </div>
                 <hr />
